@@ -1,0 +1,102 @@
+/*
+
+
+
+
+ {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root{
+  --ciano:#33b5ac;
+  --azul: #264294;
+  --verde:#359e31;
+}
+
+body{
+ /* background-image: url(https://wallpapercat.com/w/full/8/0/c/903152-3840x2160-desktop-4k-nami-league-of-legends-background.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+div#ofuscar{
+  /*background-color: rgba(0, 0, 0, 0.509);*/
+  background-color: white;
+  height: 100%;
+}
+header{
+  background-color: transparent;
+
+  padding: 0 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header > div#conta{
+  background-color: rgb(56, 56, 56);
+  width: 33px;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+header > div#conta span{
+  margin: 5px;
+  color: white;
+  font-weight: 100;
+}
+header nav ul{
+  display: flex;
+  
+}
+header nav ul li{
+  padding: 15px;
+  height: 50px;
+}
+header nav ul li:hover a{
+  border-bottom: 0.125em solid black;
+}
+header div#botaodelogin button{
+  margin-right: 5px;
+  padding: 5px 12px;
+
+  border-radius: 20px;
+}
+header div#botaodelogin button#login{
+  background-color: rgba(255, 255, 255, 0.395);
+}
+header div#botaodelogin button#signup{
+  background-color: var(--azul);
+  color: white;
+}
+
+main section#slide{
+  width: 90%;
+  height: 10%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: auto;
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t2/21128009-tranquilo-embaixo-da-agua-fundo-foto.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+main section#slide img{
+  width: 200px;
+  display: block;
+}
