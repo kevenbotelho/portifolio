@@ -1,0 +1,2 @@
+# meu_portifolio
+ Desenvolvedor Web em HTML, CSS e PHP | Portfólio Sou apaixonado por desenvolvimento web, com foco em HTML, CSS e PHP. Meu portfólio reflete projetos práticos e funcionais, voltados para criar experiências de usuário intuitivas e visualmente agradáveis. Atualmente, estou aprofundando meus conhecimentos e habilidades em programação e design, enquanto busco novas oportunidades de aprendizado e desafios para expandir minhas habilidades.
