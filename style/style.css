@@ -31,9 +31,16 @@ div#ofuscar{
   height: 100%;
 }
 header{
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.413);
+  position: fixed;
+  top: 0;
+  left: 0;
 
+  width: 100%;
   padding: 0 20px;
+
+  border-bottom: 1px solid white;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -54,7 +61,7 @@ header > div#conta{
 header > div#conta span{
   margin: 5px;
   color: white;
-  font-weight: 100;
+  font-weight: bold;
 }
 header nav ul{
   display: flex;
@@ -85,6 +92,7 @@ header div#botaodelogin button#login:hover{
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.419);
 }
 header div#botaodelogin button#signup{
+  display: none;
   background-color: var(--azul);
   color: white;
 }
@@ -95,37 +103,63 @@ header div#botaodelogin button#signup:hover{
 }
 
 main{
-  padding-top: 5px;
+  background-image: linear-gradient(to bottom, lightblue, rgb(230, 224, 173));
+  height: 100%;
 }
-main section#slide{
-  width: 90%;
-  height: 265px;
+main section{
+  
 
-  margin: auto;
-
-  border-radius: 20px;
-  background-image: url(https://img.freepik.com/fotos-gratis/paisagem-marinha-em-estilo-cartoon_23-2151120379.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  padding: 0 0px;
+  height: 100dvh;
 
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   justify-content: space-between;
-  align-items: start;
-  padding-right: 30px;
 }
-main section#slide div.escuro{
+main section#primeira-parte, section#segunda_parte{
+  padding: 0 50px;
+}
+main section#primeira-parte div.esquerdo p#nome{
+  font-size: 40px;
+  font-weight: bolder;
   
-}
-main section#slide div#apresentacao{
-  padding: 70px 0 0 70px;
+  padding: 10px 20px;
 
-  color: rgb(0, 0, 0);
 }
-main section#slide img{
-  width: 150px;
+main section.secao{
+  padding: 20px;
+}
+ div.img{
+  max-width: 100px;
+}
+div.img img{
+  width: 100%;
+}
 
-  margin-right: -70px;
-  margin-top: -45px;
+main section#projetos{
+  height: 150dvh;
+  width: 100dvw;
+
+
+  display: flex;
+  flex-flow: row wrap;
+  
+  justify-content: center;
+  align-items: center;
+
+}
+main section#projetos div.projetos{
+  background-color: rgba(200, 200, 200, 0.621);
+  width:40%;
+
+  border: 1px solid red;
+  
+  margin: 5px;
+  padding: 20px;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
