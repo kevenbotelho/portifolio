@@ -11,7 +11,7 @@ Olá! Meu nome é Keven, sou desenvolvedor web com foco em **HTML**, **CSS** e *
 
 ### **1. ClassRecap**
 <div style="max-width: 100vw; margin: auto;">
-    <img style="width: 100%;" src="imagens/classrecap.png" alt="">
+    <img style="width: 100%; border-radius:20px;" src="imagens/classrecap.png" alt="">
 </div>
 
 **Descrição:**  
