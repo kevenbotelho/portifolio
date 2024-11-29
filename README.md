@@ -1,8 +1,5 @@
 # Bem-vindo ao Meu Portfólio
 
-<div style="max-width: 200px; margin: auto;">
-    <img style="width: 100%;" src="https://png.pngtree.com/png-clipart/20240629/original/pngtree-an-icon-representing-a-human-face-has-entered-frame-on-a-png-image_15432531.png" alt="">
-</div>
 
 ## Sobre Mim
 
