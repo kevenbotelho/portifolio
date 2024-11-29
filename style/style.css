@@ -106,7 +106,7 @@ main{
   background-image: linear-gradient(to bottom, lightblue, rgb(230, 224, 173));
   height: 100%;
 }
-main section{
+main section#apresentacao{
   
 
   padding: 0 0px;
@@ -117,10 +117,11 @@ main section{
   align-items: center;
   justify-content: space-between;
 }
-main section#primeira-parte, section#segunda_parte{
+main section#apresentacao, section#projetos{
   padding: 0 50px;
 }
-main section#primeira-parte div.esquerdo p#nome{
+main section#apresentacao div.esquerdo p#nome{
+  line-height: unset;
   font-size: 40px;
   font-weight: bolder;
   
@@ -130,7 +131,7 @@ main section#primeira-parte div.esquerdo p#nome{
 main section.secao{
   padding: 20px;
 }
- div.img{
+div.img{
   max-width: 100px;
 }
 div.img img{
@@ -138,28 +139,86 @@ div.img img{
 }
 
 main section#projetos{
-  height: 150dvh;
-  width: 100dvw;
-
+  height: unset;
 
   display: flex;
-  flex-flow: row wrap;
-  
-  justify-content: center;
+  flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
+
+  padding-bottom: 30px;
 
 }
-main section#projetos div.projetos{
-  background-color: rgba(200, 200, 200, 0.621);
-  width:40%;
+main section#projetos h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+main section#projetos div.projeto-descricao{
+  padding: 20px 0;
+}
+main section#projetos div.projetos div.imagem{
+  max-width: 600px;
+}
+main section#projetos div.projetos img{
+  width: 100%;
+  border-radius: 20px;
+}
+main section#projetos h4.nome-do-projeto{
+  display: block;
+  margin-right: auto;
+  padding: 10px 0;
+}
+main section#projetos p.descricao{
+  line-height: 25px;  
+}
+main section#habilidades {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 
-  border: 1px solid red;
-  
-  margin: 5px;
-  padding: 20px;
+  height: unset;
+}
+main section#habilidades h2{
+  padding-bottom: 10px;
+}
+main section#habilidades div.habilidades{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+
+  margin-bottom: 20px;
+  border-radius: 20px;
 
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
+}
+main section#habilidades div.habilidades img{
+  width: 70px;
+  padding-bottom: 20px;
+}
+aside#redes-sociais{
+  background-color: rgb(212, 246, 212);
+  display: block;
+  height: 50px;
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid black;
+}
+ul{
+  text-align: right;
+}
+aside#redes-sociais li{
+  display: inline-block;
+  padding-left: 10px;
+}
+aside#redes-sociais ul li img{
+  width: 40px;
 }
