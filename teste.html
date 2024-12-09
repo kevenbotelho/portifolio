@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=north_east" />
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+        /*reset*/
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        li{
+            list-style-type: none;
+        }
+
+        /*style*/
+        main{
+            /*background-image: url(imagens/plano-fundo.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;*/
+        
+            padding: 20px;
+        }
+        main section#principal{
+
+            background-color: #c9c9c9;
+            padding: 10px;
+            backdrop-filter: blur(30px);
+
+            border: 1px solid;
+            border-radius: 20px;
+            
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+
+        }
+        main section#principal header{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 20px 40px 50px 40px;
+        }
+        main section#principal header ul{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: left;
+            align-items: center;
+
+            
+
+        }
+        main section#principal header ul li{
+            padding: 0 0 0 25px;
+            
+        }
+        main section#principal header div#logo{
+            margin-left: -20px;
+            width: 50px;
+        }
+        main section#principal header div#logo img{
+            width: 100%;
+            border-radius: 50%;
+        } 
+        main section#principal h1{
+            font-family: "Playfair Display", serif;
+            font-size: 70px;
+            font-weight: lighter;
+            padding-bottom: 10px;
+        }
+        main section#principal h1 , main section#principal p{
+            text-align: center;
+        }
+        main section#principal div.botao{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        main section#principal div.botao button{
+            background-color: black;
+            color: white;
+
+            border: 0;
+            border-radius: 4px;
+            
+            padding: 10px;
+            margin: 20px;
+            letter-spacing: 2px;
+
+        }
+        main section#principal div.botao button#contato{
+            background-color: rgba(255, 255, 255, 0.336);
+            color: black;
+
+            border: 1px solid;
+        }
+
+
+
+        main section#projetos{
+            border: 1px solid;
+            border-radius: 20px;
+
+            margin: 10px 0;
+            
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+
+        }
+        main section#projetos h2{
+            font-family: "Playfair Display", serif;
+            font-weight: lighter;
+
+            letter-spacing: 10px;
+        }
+        main section#projetos div#todos_os_projetos{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        main section#projetos button{
+            position: absolute;
+            
+            right: 0;
+            top: 0;
+
+            width: 40px;
+            height: 40px;
+
+            background-color: black; 
+            border-radius: 0 10px 0 0; 
+            border: 0;
+        }
+        main section#projetos button span{
+            
+        }
+        
+        main section#projetos div.projetos{
+            background-color: white;
+
+            padding: 20px;
+            margin: 20px;
+
+            border: 1px solid black;
+            border-radius: 15px;
+
+            position: relative;
+
+            width: ;
+
+        }
+        main section#projetos div.projetos h3{
+            font-size: 30px;
+            font-weight: lighter;
+            font-family: "Playfair Display";
+        }
+        main section#projetos div.projetos div.imagem{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+
+            padding-top: 10px;
+        }
+        main section#projetos div.projetos div.imagem img{
+            width: 100%;
+
+            border-radius: 5px;
+        }
+    </style>
+    <title>Teste</title>
+</head>
+<body>
+    <main>
+        <section id="principal">
+            <header>
+                <div id="logo">
+                    <img src="imagens/logo.png" alt="">
+                </div>
+                <ul>
+                    <li>Teste 1</li>
+                    <li>Teste 2</li>
+                </ul>
+            </header>
+            <h1>Keven Botelho</h1>
+            <p>Apaixonado por desenvolvimento front-end </p>
+            <div class="botao">
+                <button id="avaliar">Avaliar</button>
+                <button id="contato">Entrar em contato</button>
+            </div>
+            <marquee behavior="" direction="left"><img src="https://pa1.aminoapps.com/7503/b7e89167de8f874c483fd15e7a38578d3af76febr1-678-382_00.gif" alt="" style="width: 50px;"></marquee>
+        </section>
+        <section id="projetos" style="margin-top: 50px;">
+            <h2 style="font-size: 35px; padding: 20px 0 10px 30px; text-align: center;">Projetos</h2>
+            <div id="todos_os_projetos">
+                <div class="projetos">
+                    <button onclick="window.location.href='https://kevenbotelho.github.io/cursodeti', '_blank';">
+                        <span style="color: white;" class="material-symbols-outlined" >
+                        north_east</span>
+                    </button>
+                    <h3 style="padding-bottom: 5px;">ClassRecap</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum praesentium ipsa? Mollitia eveniet cupiditate unde consectetur asperiores</p>
+                    <div class="imagem">
+                        <img src="imagens/classrecap.png" alt="" class="imagem">
+                    </div>
+                </div>
+                <div class="projetos">
+                    <button onclick="window.location.href='https://kevenbotelho.github.io/login-google-tela','_blank'">
+                        <span style="color: white;" class="material-symbols-outlined">north_east</span>
+                    </button>
+                    <h3>Login Google</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum praesentium ipsa? Mollitia eveniet cupiditate unde consectetur asperiores</p>
+                    <div class="imagem">
+                        <img src="imagens/login-google.png" alt="" class="imagem">
+                    </div>
+                </div>
+                <div class="projetos">
+                    <button><span style="color: white;" class="material-symbols-outlined" >
+                        north_east
+                        </span></button>
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum praesentium ipsa? Mollitia eveniet cupiditate unde consectetur asperiores</p>
+                    <div class="imagem">
+                        <img src="https://www.orkugifs.com/images/manda-chuva_3773.gif" alt="" class="imagem">
+                    </div>
+                </div>
+                <div class="projetos">
+                    <button><span style="color: white;" class="material-symbols-outlined" >
+                        north_east
+                        </span></button>
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum praesentium ipsa? Mollitia eveniet cupiditate unde consectetur asperiores</p>
+                    <div class="imagem">
+                        <img src="https://www.orkugifs.com/images/manda-chuva_3773.gif" alt="" class="imagem">
+                    </div>
+                </div>
+                <div class="projetos">
+                    <button style="background-color: black; border-radius: 3px; border: 0;"><span style="color: white;" class="material-symbols-outlined" >
+                        north_east
+                        </span></button>
+                    <h3>Titulo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum praesentium ipsa? Mollitia eveniet cupiditate unde consectetur asperiores</p>
+                    <div class="imagem">
+                        <img src="https://www.orkugifs.com/images/manda-chuva_3773.gif" alt="" class="imagem">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+</body>
+</html>
